@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Utility Classses */
+.btn-primary {
+    background-color: #d2073e;
+    color: white;
+    text-transform: uppercase;
+    padding: 16px 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    margin: 10px;
+    letter-spacing: 2px;
+    transition: 500 ease;
+    
+}
+
+.btn-primary:hover{
+    background-color: #fbc354;
+    cursor: pointer;
+}
+
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar .navbar-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#navbar .navbar-container ul li {
+    padding: 0px 25px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition:  all 300ms ease;
+}
+
+#navbar .navbar-container ul li:hover {
+    color: #d2073e;
+    cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(3){
+    border-right: 1px solid white;
+}
+
+/*Showcase*/
+#showcase {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background: url('musician-664432.jpg')no-repeat center/cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: color;
+}
+
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showcase .showcase-container h1 {
+    font-size: 10rem;
+}
+
+#showcase .showcase-container h2 {
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/*Footer*/
+#footer {
+    background-color: black;
+    color: white;
+    padding: 80px 0px;
+}
+
+#footer .footer-container {
+    display: flex;
+    margin: auto;
+    width:75%;
+    justify-content: space-between;
+}
+
+#footer .footer-container .footer-items .footer-item {
+    margin: 25px 0px;
+    list-style:none;
+    font-size: 15px;
+    transition: all 300ms ease;
+}
+
+#footer .footer-container .footer-items .footer-item:hover{
+    color: #d2073e;
+    cursor: pointer;
+}
+
+#footer .footer-container .footer-items p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/*Footer Socials*/
+.socials {
+    display: flex;
+}
+
+.socials i {
+    margin: 0 30px;
+    font-size: 24px;
+    transition: all 300ms ease;
+}
+
+.socials i:hover {
+    color: #d2073e;
+    cursor: pointer;
+}
+
+/*Footer Info*/
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+    color: #919496;
+    margin: auto;
+    width: 75%;
+}
+
+.footer-info .footer-info-items { 
+    display: flex;
+    list-style: none;
+}
+.footer-info .footer-info-items .footer-info-item {
+    margin: 0 10px;
+    transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+    color: #d2073e;
+    cursor: pointer;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.footer-info .rights .country p:hover{
+    color: #d2073e;
+    cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+    height: 12px;
+    width: auto;
+    display: inline-block;
+    margin-left: 5px;
+}
