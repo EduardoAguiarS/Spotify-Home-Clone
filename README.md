@@ -1,2 +1,3 @@
-# Spotify-Home-Clone
-Spotify home clone study
+# Spotify Home Clone <br>
+https://eduardoaguiars.github.io/Spotify-Home-Clone/
+
